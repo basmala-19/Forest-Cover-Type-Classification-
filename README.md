@@ -2,8 +2,7 @@
 
 ## Overview
 Predicting the **forest cover type** from cartographic & environmental features using **tree-based models**.  
-We ran solid **EDA**, handled **class imbalance**, trained **Random Forest** and **XGBoost**, and performed **Hyperparameter Tuning**.  
-✅ Bonus completed: **model comparison** + **tuning** + visuals (confusion matrices & feature importance).
+ ran solid **EDA**, handled **class imbalance**, trained **Random Forest** and **XGBoost**, and performed **Hyperparameter Tuning**.  
 
 ---
 
@@ -23,7 +22,6 @@ We ran solid **EDA**, handled **class imbalance**, trained **Random Forest** and
 
 ### 2) Preprocessing
 - Remapped `Cover_Type` **1–7 → 0–6** (for scikit-learn/XGBoost).
-- One-hot encoded categorical groups (`Wilderness_Area`, `Soil_Type`) if needed.
 - `train_test_split` with **stratify** to preserve class ratios.
 
 ### 3) Baseline Modeling (Tree-based)
